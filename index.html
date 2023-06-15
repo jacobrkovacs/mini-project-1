@@ -2,20 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assests/styles.css">
-    <title>Contact Page</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./Assests/CSS/styles.css"/>
+    <title>Landing Page</title>
 </head>
-
-<header>
-    <h1>Contact</h1>
-</header>   
-
 <body>
-<input type="text" name="Name" id="name"><br>
-<input type="text" name="" id="">
-<input type="text" name="" id="">
-<input type="text" name="" id="">
+    <header>
+        <nav>
+            <ul>
+                <li><a class="color-white-smoke" href="#">Home</a></li>
+                <li><a class="color-white-smoke" href="#">About</a></li>
+                <li><a class="color-white-smoke" href="#contact">Contact</a></li>               
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="mb-3">My Personal Website</h1>
+        <section class="portrait">
+            <figure>
+                <img src="./Assests/Images/F54B5817-CAE7-458D-BAC5-FBAFDE8EEBFA_1_105_c.jpeg" alt="Jacob Kovacs on Brooklyn Bridge">
+                <figcaption>Jacob Kovacs</figcaption>
+            </figure>
+        </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <form action="">
+                    <div><label for="contactname">Name:</label>
+                        <input 
+                        id="contactname" 
+                    name="contactname" 
+                    type="text" 
+                    placeholder="your name here" ></div>
+
+                <div><label for="contactemail">Email:</label>
+                    <input 
+                    id="contactemail" 
+                    name="contactemail" 
+                    type="email" 
+                    placeholder="e.g. you@domain.com" ></div>
+
+                <div>
+                    <button type="submit" name="" id="">SEND</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span class="color-white-smoke">©2023 Jacob Kovacs</span>
+    </footer>
 </body>
+
 </html>
